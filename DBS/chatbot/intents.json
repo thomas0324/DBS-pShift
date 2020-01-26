@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "transaction",
+         "patterns": ["I want to make a transaction to 1000-1000-1000 account", "Pay the bill", "transaction", "Give 1000-1000-1000 money"],
+         "responses": ["Yes sure , How much do you want to transact?", "Sure, please tell me how much you want to transact"],
+         "context_set": ""
+        },
+        {"tag": "money",
+         "patterns": ["10,000"],
+         "responses": ["Please look at the camera to verify your order", "Look at the camera to confirm your order"],
+         "context_set": ""
+        },
+        {"tag": "balance",
+         "patterns": ["I want to check my balance from my DBS account", "How much do i have in my bank account?", "Please help me check with my balance"],
+         "responses": ["You have 10000 HKD in your DBS account.", "Your balance in DBS account is 100000 HKD"],
+         "context_set": ""
+        },
+        {"tag": "withdrawal",
+         "patterns": ["I want to withdraw money"],
+         "responses": ["Sure , How much do you want to withdraw?"],
+         "context_set": ""
+        }
+   ]
+}

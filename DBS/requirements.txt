@@ -1,0 +1,13 @@
+cmake
+dlib
+face_recognition
+numpy
+opencv-python
+nltk
+numpy
+tflearn
+tensorflow 
+boto3
+Pyaudio 
+speech_recognition
+pygame
