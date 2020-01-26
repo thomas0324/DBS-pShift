@@ -132,8 +132,8 @@ def speech():
 # converting the text into a voice
 def reaction(counter, responses):
 
-    polly_client = boto3.Session(aws_access_key_id = 'AKIAJ6PM3AW4NEMBQPOA' , 
-            aws_secret_access_key = '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' ,
+    polly_client = boto3.Session(aws_access_key_id = '---' , 
+            aws_secret_access_key = '---' ,
             region_name = 'ap-southeast-1').client('polly')
     reaction = polly_client.synthesize_speech(VoiceId = 'Joanna', OutputFormat ='mp3', Text = random.choice(responses))
 
